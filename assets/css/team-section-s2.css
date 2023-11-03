@@ -1,0 +1,191 @@
+/*--------------------------------------------------------------
+#1.1	team-section
+--------------------------------------------------------------*/
+.team-section .grid .inner,
+.team-section-s2 .grid .inner {
+  position: relative;
+}
+
+.team-section .grid .details,
+.team-section-s2 .grid .details {
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 35px;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.team-section .grid:hover .details,
+.team-section-s2 .grid:hover .details {
+  bottom: 15px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.team-section .social ul,
+.team-section-s2 .social ul {
+  overflow: hidden;
+}
+
+.team-section .social ul li,
+.team-section-s2 .social ul li {
+  float: left;
+}
+
+.team-section .social ul>li+li,
+.team-section-s2 .social ul>li+li {
+  margin-left: 10px;
+}
+
+.team-section .social ul a,
+.team-section-s2 .social ul a {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #b3b3b3;
+}
+
+.team-section .social ul a:hover,
+.team-section-s2 .social ul a:hover {
+  color: #75CEF2;
+}
+
+.team-section .details h4,
+.team-section-s2 .details h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin: 0.5em 0;
+}
+
+.team-section .details h4+span,
+.team-section-s2 .details h4+span {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.team-section .social,
+.team-section-s2 .social,
+.team-section .details h4,
+.team-section-s2 .details h4,
+.team-section .details h4+span,
+.team-section-s2 .details h4+span {
+  position: relative;
+}
+
+.team-section .owl-controls,
+.team-section-s2 .owl-controls {
+  margin-top: 50px;
+}
+
+@media (max-width: 991px) {
+
+  .team-section .owl-controls,
+  .team-section-s2 .owl-controls {
+    margin-top: 45px;
+  }
+}
+
+.team-section .owl-theme .owl-controls .owl-nav [class*=owl-],
+.team-section-s2 .owl-theme .owl-controls .owl-nav [class*=owl-] {
+  width: 50px;
+  height: 50px;
+  line-height: 47px;
+  padding: 0;
+  border-radius: 0;
+  color: #c5c5c5;
+  margin: 5px;
+  background: #ffffff;
+  border: 2px solid #e2e2e2;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.team-section .owl-theme .owl-controls .owl-nav [class*=owl-]:hover,
+.team-section-s2 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+  background: #75CEF2;
+  border-color: #75CEF2;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+
+  .team-section .owl-theme .owl-controls .owl-nav [class*=owl-],
+  .team-section-s2 .owl-theme .owl-controls .owl-nav [class*=owl-] {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 0;
+  }
+}
+
+.team-section .owl-theme .owl-controls .owl-nav .owl-prev,
+.team-section-s2 .owl-theme .owl-controls .owl-nav .owl-prev {
+  border-left: 0;
+}
+
+@media screen and (min-width: 992px) {
+
+  .team-section .owl-theme .owl-controls .owl-nav .owl-prev,
+  .team-section-s2 .owl-theme .owl-controls .owl-nav .owl-prev {
+    left: 15px;
+  }
+}
+
+.team-section .owl-theme .owl-controls .owl-nav .owl-next,
+.team-section-s2 .owl-theme .owl-controls .owl-nav .owl-next {
+  border-right: 0;
+}
+
+@media screen and (min-width: 992px) {
+
+  .team-section .owl-theme .owl-controls .owl-nav .owl-next,
+  .team-section-s2 .owl-theme .owl-controls .owl-nav .owl-next {
+    right: 15px;
+  }
+}
+
+.team-section-s2 .grid .details {
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 35px;
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  bottom: 0;
+  visibility: visible;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px solid #ece9e9;
+}
+
+.team-section-s2 .grid:hover .details {
+  background: #75CEF2;
+  bottom: 0;
+  opacity: 1;
+  visibility: visible;
+  border-color: #75CEF2;
+}
+
+.team-section-s2 .grid:hover .details .social ul a,
+.team-section-s2 .grid:hover .details h4,
+.team-section-s2 .grid:hover .details h4+span {
+  color: #fff;
+}
+
+h3 {
+    color:  #293D96;
+}

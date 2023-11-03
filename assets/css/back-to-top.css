@@ -1,0 +1,46 @@
+/*** back to top **/
+.back-to-top {
+    background-color: #2d92bd;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid #2A3692;
+    border-radius: 45px;
+    text-align: center;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    right: 15px;
+    bottom: 15px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  @media (max-width: 991px) {
+    .back-to-top {
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+    }
+  }
+
+  .back-to-top:hover {
+    background-color: #70c5df;
+  }
+
+  .back-to-top i {
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,169 @@
+/*--------------------------------------------------------------
+	#contact page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#6.1	contact-pg-section
+--------------------------------------------------------------*/
+.contact-pg-section {
+    padding-bottom: 35px;
+  }
+
+  @media (max-width: 991px) {
+    .contact-pg-section {
+      padding-bottom: 15px;
+    }
+  }
+
+  .contact-pg-section form input,
+  .contact-pg-section form select,
+  .contact-pg-section form textarea {
+    background: #fdfdfd;
+    width: 100%;
+    height: 53px;
+    border: 2px solid #f1f1f1;
+    border-radius: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  @media (max-width: 991px) {
+
+    .contact-pg-section form input,
+    .contact-pg-section form select,
+    .contact-pg-section form textarea {
+      height: 45px;
+    }
+  }
+
+  .contact-pg-section form input:focus,
+  .contact-pg-section form select:focus,
+  .contact-pg-section form textarea:focus {
+    border-color: #75CEF2;
+  }
+
+  .contact-pg-section form textarea {
+    height: 180px;
+  }
+
+  .contact-pg-section form {
+    margin: 0 -15px;
+    overflow: hidden;
+  }
+
+  .contact-pg-section form ::-webkit-input-placeholder {
+    font-style: 15px;
+    font-style: normal;
+    color: #9d9c9c;
+  }
+
+  .contact-pg-section form :-moz-placeholder {
+    font-style: 15px;
+    font-style: normal;
+    color: #9d9c9c;
+  }
+
+  .contact-pg-section form ::-moz-placeholder {
+    font-style: 15px;
+    font-style: normal;
+    color: #9d9c9c;
+  }
+
+  .contact-pg-section form :-ms-input-placeholder {
+    font-style: 15px;
+    font-style: normal;
+    color: #9d9c9c;
+  }
+
+  .contact-pg-section form select {
+    display: inline-block;
+    color: #a9a9a9;
+    cursor: pointer;
+    opacity: 1;
+    padding: 6px 12px;
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+
+  .contact-pg-section form>div {
+    width: calc(50% - 30px);
+    float: left;
+    margin: 0 15px 30px;
+  }
+
+  @media (max-width: 600px) {
+    .contact-pg-section form>div {
+      width: calc(100% - 30px);
+      float: none;
+    }
+  }
+
+  .contact-pg-section form .fullwidth {
+    width: calc(100% - 30px);
+    float: none;
+    clear: both;
+  }
+
+  .contact-pg-section .contact-info {
+    padding: 40px 25px;
+    -webkit-box-shadow: 0px 3px 17.85px 3.15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 17.85px 3.15px rgba(0, 0, 0, 0.08);
+  }
+
+  @media (max-width: 991px) {
+    .contact-pg-section .contact-info {
+      margin-top: 50px;
+    }
+  }
+
+  .contact-pg-section .contact-info>div {
+    position: relative;
+    padding-left: 70px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+
+  .contact-pg-section .contact-info>div:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .contact-pg-section .contact-info .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #75CEF2;
+    border-radius: 50%;
+    font-size: 18px;
+    font-size: 1.125rem;
+    position: absolute;
+    left: 0;
+    top: -1px;
+  }
+
+  .contact-pg-section .contact-info h5 {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 0 0.3em;
+    padding-top: 0.2em;
+  }
+
+  .contact-pg-section .contact-info p {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+
+  .contact-map-section .contact-map {
+    height: 450px;
+  }
+
+  .contact-map-section iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+  }

@@ -1,0 +1,6 @@
+hr {
+    border: 0;
+    height: 1.5px;
+    background: linear-gradient(45deg, #abf1fa, #b0e4fb, #b5cefe);
+}
+
